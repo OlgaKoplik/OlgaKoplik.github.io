@@ -1,0 +1,314 @@
+/* NORMALIZE */
+/* ================================================ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000312}}
+html, body, div, span, applet, main, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000319}}
+article, aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000322}}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Tahoma, sans-serif;
+  line-height: 1;
+  background-color: #ffffff;
+  height: 100%;
+  position: relative;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000334}}
+blockquote, q {
+  quotes: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000338}}
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000343}}
+q:before, q:after {
+  content: "";
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000347}}
+table {
+  border-collapse: collapse;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000353}}
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000358}}
+input, textarea {
+  color: #333;
+  outline: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000367}}
+input[type="button"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000372}}
+input[type="search"] {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000375}}
+::-ms-clear {
+  width: 0;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000379}}
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000384}}
+td, form {
+  margin: 0px;
+  padding: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000388}}
+a {
+  color: #000100;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\0000396}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\00003100}}
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/_normalize\.sass}line{font-family:\00003105}}
+.clearfix:after, .wrapper:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000314}}
+body {
+  font-family: "Raleway"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000316}}
+.navbar {
+  max-width: 960px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000319}}
+  .navbar ul {
+    padding-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000321}}
+.logo {
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000324}}
+  .logo span {
+    font-size: 60px;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000328}}
+.icon-reorder-option:before {
+  size: 40px;
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000332}}
+.navbar-nav {
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000336}}
+  .navbar-nav .nav-link {
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000339}}
+.main-wrapper {
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000345}}
+.join {
+  margin-top: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000347}}
+  .join .header-inner {
+    padding: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000349}}
+    .join .header-inner__title {
+      font-size: 48px;
+      font-weight: 800;
+      font-family: "Raleway";
+      margin-bottom: 20px;
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000355}}
+    .join .header-inner__bth {
+      font-family: "Raleway"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000358}}
+.about-block {
+  background-color: #999999;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000366}}
+  .about-block__img {
+    width: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000368}}
+  .about-block__h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000372}}
+  .about-block__txt {
+    width: 220px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000375}}
+.carousel-item-about {
+  width: 300px;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000379}}
+.corusel__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000387}}
+.gallery {
+  font-family: "Raleway";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000394}}
+.video {
+  height: 160px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\0000398}}
+.gallery-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003102}}
+  .gallery-field__img {
+    padding: 10px;
+    width: 150px;
+    height: 110px;
+    object-fit: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003110}}
+.hide-on-mobile {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003113}}
+.course {
+  background-color: #999999;
+  display: flex;
+  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003117}}
+  .course .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003122}}
+.carousel-item-course {
+  width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003124}}
+  .carousel-item-course .card {
+    height: 270px;
+    width: 200px;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003128}}
+    .carousel-item-course .card .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: "Raleway"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003133}}
+      .carousel-item-course .card .card-body .card-title {
+        font-size: 24px;
+        font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003136}}
+      .carousel-item-course .card .card-body .level {
+        display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003139}}
+.map {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003146}}
+.contact {
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003151}}
+  .contact__h2 {
+    font-size: 32px;
+    margin-bottom: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003155}}
+.form {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003158}}
+.footer {
+  height: 120px;
+  background-color: #515151;
+  padding: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003163}}
+.social-media {
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003165}}
+  .social-media__ul {
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    font-size: 32px;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Olga\/Desktop\/Uni\/course\%204\/sass\/style\.sass}line{font-family:\00003171}}
+.rights {
+  padding-top: 20px;
+  margin: 0 auto; }

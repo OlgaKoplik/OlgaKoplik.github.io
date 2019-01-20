@@ -1,0 +1,442 @@
+@import mixins
+@import media
+@import sprites
+@import normalize
+
+
+$font-family: "Raleway"
+$white: white
+$gray: #999999
+$green: #336600
+$light-green: #90b081
+$max-width: 960px
+$p: 16px
+
+$light-green-tinted: mix(white, $light-green, 50%)
+
+body
+	font-family: $font-family
+	overflow-x: hidden
+
+.bth
+	font-family: $font-family
+	color: $white
+	font-size: $p
+	height: 45px
+	width: 160px
+	border-radius: 0
+	border-style: none
+
+.title
+	margin-top: 50px
+	max-width: 550px
+	&__h1
+		font-size: 36px
+		font-weight: 600
+		color: $green
+		text-align: center
+		margin-bottom: 0.3em 
+	&__line
+		border-top: 1px solid $green
+		width: 220px
+		margin: 0 auto
+	&__p
+		color: $gray
+		text-align: center
+		line-height: 1.5em
+		margin-top: 1.5em
+
+	/*================ Header ================ */
+
+.header
+	height: 100%
+	max-height: 640px
+	overflow: hidden
+	background: url('../img/img/ak-n-cakiner-651430-unsplash.jpg')
+	background-position: center center
+	background-size: cover
+	background-repeat: no-repeat
+
+
+.navbar
+	display: flex
+	max-width: $max-width
+	margin: 0 auto
+	font-size: 18px
+	.logo
+		order: -3
+		margin: 0
+		padding: 0
+		span 
+			font-size: 60px
+			color: white
+	.navbar-nav
+		padding-top: 10px
+		margin: 0 auto
+		.nav-link
+			color: white
+		.nav-link:hover
+			color: $light-green-tinted
+			transition: all .3s linear
+
+	ul
+		padding-top: 0
+	.signup
+		display: flex
+		justify-content: center
+		width: 120px
+		border: 2px solid $white
+		background: rgba(255,255,255, 0.15)
+		&__p
+			margin: auto
+		.icon-web-log-in
+			font-size: 20px
+			margin-left: 5px
+			margin: auto
+			
+
+		
+	.signup:hover
+		border: 2px solid $light-green-tinted
+		transition: all .3s linear
+		
+			
+			
+	
+
+.icon-list-menu
+	size: 70px
+	color: white
+
+.icon-web-log-in:before 
+	content: "\e909"
+	size: 70px
+	color: white
+
+.join
+	display: flex
+	flex-direction: column
+	align-items: center
+	position: relative
+	height: 80%
+	.header-inner
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		text-align: center
+		padding: 16px
+		&__title
+			font-size: 48px
+			font-weight: 800
+			font-family: $font-family
+			text-transform: uppercase
+			letter-spacing: 10px
+			margin-bottom: 70px
+			color: $white
+			display: inline-flex
+		&__p
+			font-size: $p
+			color: $white
+			margin-bottom: 20px
+			background: rgba(0,0,0, 0.25)
+		&__btn
+			background: $light-green
+		&__btn:hover
+			background: rgba(144,176,129, 0.9)
+			transition: all .3s linear
+.modal
+	.modal-content
+		border-radius: 0
+	.form-control
+		border: 0
+		border-bottom: 1px solid #ddd
+		border-radius: 0
+		&:focus
+				border-color: $light-green
+				box-shadow: none
+	.text-muted
+		font-size: 14px
+		padding-top: 5px
+	.submit
+		background: $light-green
+		&:hover
+			background: $green
+	.help-block
+		font-size: 14px
+		color: #a13046
+		padding-top: 7px
+	.custom-control-label
+		line-height: normal
+	form.submitted .ng-invalid
+		border-bottom: 1px solid #a13046
+	input
+		.ng-valid
+			border-bottom: 1px solid $green
+
+	
+	/*================ About ================ */
+.about-section
+	display: flex
+	flex-direction: column
+	align-items: center
+
+.cards
+	display: flex
+	margin-top: 50px
+	.card
+		text-align: center
+		width: 220px
+		height: fit-content
+		margin: 0 20px
+		border: 0
+		border-radius: 0
+		box-shadow: 0 0 18px rgba(0,0,0,0.1)
+		&__img
+			margin-top: 25px
+			font-size: 75px
+			color: $green
+		&__line
+			display: block
+			border-top: 1px solid $green
+			width: 60px
+			text-align: center
+			margin: 0 auto
+		&__h3
+			font-size: 18px
+			font-weight: 600
+			padding: 15px
+			color: $gray
+			font-weight: 600
+		&__txt
+			padding: 15px 30px
+			text-align: center
+			line-height: 1.5em
+			color: $gray
+		&__more
+			margin-bottom: 25px
+			a
+				color: $gray
+				font-weight: 600
+.card
+	.card-body
+		margin: 0
+		margin-top: 10px
+		box-shadow: none	
+/*================ Level ================ */
+.level
+	height: 500px
+	background: url('../img/level.jpg')
+	background-position: bottom center
+	background-repeat: no-repeat
+	margin-top: 100px
+	.title
+		margin-top: 20px
+.course
+	display: flex
+	align-items: center
+
+
+.carousel-item-course
+	padding: 20px
+	.card
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		margin: 0 auto
+		border: 0
+		border-radius: 0
+		box-shadow: 0 0 18px rgba(0,0,0,0.1)
+		.card-body
+			font-family: $font-family
+			.card-title
+				font-size: 24px
+				font-weight: 600
+				color: $green
+				margin-top: 25px
+			.line
+				border-top: 1px solid $green
+				width: 60px
+				margin: 0 auto
+			.badge 
+				display: flex
+				font-size: 70px
+				color: $light-green
+				margin-top: 30px
+				.middl
+					margin-top: -30px
+				.activ
+					color: $green
+			.card-text
+				color: $light-green
+				line-height: 1.5em
+				margin: 20px 0
+				padding: 0 20px
+			.bth
+				background: $green
+				margin-bottom: 25px
+				&:hover
+					background: rgba(144,176,129, 0.9)
+					transition: all .3s linear
+
+
+.carousel-indicators
+	margin-right: -600px 
+	margin-bottom: 20px
+	li 
+		width: 15px
+		height: 15px
+		border-radius: 100%
+
+.phrase
+	margin-top: 20%
+	width: 250px
+	&__txt
+		color: $white
+		text-align: center
+		line-height: 1.4em
+		margin-left: 25px
+	&__autor
+		color: $white
+		font-style: italic
+		font-weight: 300
+		margin-top: 10px
+		text-align: right
+
+
+/*================ Gallery ================ */
+.gallery
+	margin-top: 50px
+	.title
+		padding-left: 10px
+		max-width: 700px
+		&__h1
+			text-align: left
+		&__line
+			width: 70px
+			margin-left: 0
+		&__p
+			text-align: left
+.gallery-container
+	margin-top: 25px
+	.card
+		border: 0
+		img
+			border-radius: 0
+.tz-gallery
+	.col-4
+		padding: 1px
+	
+
+.video
+	width: 97%    !important
+	height: auto   !important
+
+
+/*================ Contact ================ */
+
+.contact
+	margin-top: 100px
+	margin-bottom: 100px
+	padding: 50px 0
+	background: url('../img/img/bg-contact.jpg')
+	background-position: center bottom
+	background-size: cover
+	background-repeat: no-repeat
+	.title
+		margin-bottom: 50px
+		margin-top: 0
+		max-width: 100%
+		&__h1
+			color: $white
+		&__line
+			border-top: 1px solid $white
+			width: 140px
+	.form
+		text-align: center
+		padding: 4em
+		.form-control
+			border: 1px solid #ddd
+			border-radius: 0
+			transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+			&:focus
+				border-color: $light-green
+				box-shadow: none
+		.border-boottom
+			border: 0
+			border-bottom: 1px solid #ddd
+		.txt-area
+			margin: 50px 0
+			height: 150px
+		.bth
+			background: $light-green
+			&:hover
+				background: $green
+				transition: all .3s linear
+		
+
+.contact-card
+	width: 100%
+	margin: 0 auto
+	border: 0
+	border-radius: 0
+	background-color: $white
+	box-shadow: 0 0 30px rgba(0,0,0,0.6)
+	
+/*================ Footer ================ */
+
+.footer
+	.logo
+		text-align: center
+		span
+			font-size: 80px
+			color: $gray
+			margin: 0 auto
+			&:hover
+				color: $light-green
+				transition: all .3s linear
+				
+.adress
+	font-size: 18px
+	color: $gray
+	line-height: 1.4em
+	.indent
+		line-height: 2em
+.social-media
+	justify-content: center
+	margin-top: 20px
+	&__ul
+		display: inline
+		text-align: center
+		margin: 10px
+		font-size: 32px
+		color: $light-green
+		&:hover
+			color: $green
+			transition: all .3s linear
+
+.navbar-footer
+	text-align: right
+	.nav-link
+		font-size: 18px
+		color: $gray
+		&:hover
+			color: $green
+			text-decoration: underline
+			transition: all .3s linear
+.rights
+	padding-top: 20px
+	margin: 0 auto
+
+
+.map
+	margin-top: 20px
+	width: 100%
+	height: 400px
+	display: flex
+	justify-content: center
+	align-items: center
+
+
+			
+

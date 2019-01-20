@@ -1,0 +1,191 @@
+/*================ Header ================ */
+@media screen and (max-width: 576px) {
+    .signup-sm{-webkit-box-ordinal-group: -1;-ms-flex-order: -2;order: -2;}
+    button.navbar-toggler{-webkit-box-ordinal-group: 0;-ms-flex-order: -1;order: -1;}
+    button.bth.signup{display: none;}
+  }
+
+ @media screen and (min-width: 576px) {   
+    .signup-sm{display: none;}
+  }
+
+/*================ About ================ */
+   @media screen and (max-width: 576px) {
+    .cards{
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; 
+    }
+    .cards .card{
+      margin-top: 10px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      width: auto;
+    }
+    .cards .card__img {
+      padding: 40px;
+      background: #e6eee3;
+      margin: 0 auto;
+    }
+  }
+
+/*================ Levl ================ */
+@media screen and (max-width: 990px) {
+ .level{
+   height: 600px;
+ }
+ .carousel-inner{
+   margin-bottom: 20px;
+ }
+ .carousel-indicators{
+   margin: 0;
+ }
+  .phrase{
+    display: none;
+  }
+  /*title*/
+  .desktop{
+    display: none;
+  }
+
+  .small{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .row-level{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .course{
+    max-width: none;
+  }
+
+}
+
+@media screen and (min-width: 990px) {
+  .small{
+    display: none
+  }
+}
+
+/*================ Gallery ================ */
+
+@media screen and (max-width: 768px) {
+  .video-container{
+    padding: 0;
+  }
+  .video{
+    width: 100% !important;
+  }
+}
+
+/*================ Contact ================ */
+
+@media screen and (max-width: 768px) {
+  .contact .contact-form{
+    padding: 40px 10px;
+  }
+
+}
+
+/*================ Footer ================ */
+
+@media screen and (max-width: 576px) {
+  .navbar-footer .navbar-nav {
+    margin-top: 20px;
+    text-align: center;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+  }
+
+  .navbar-nav .nav-link{
+    color: #336600;
+    font-size: 20px;
+  }
+
+  .footer .logo{
+    text-align: right;
+  }
+
+  .footer .logo span{
+    font-size: 120px;
+  }
+
+  .adress{
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar-footer .navbar-nav {
+    text-align: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+  }
+  .footer-row{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .adress{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer .logo span{
+    font-size: 80px;
+  }
+  .footer .logo{
+    margin: 0 auto;
+    padding-top: 20px; 
+    text-align: center;
+  }
+}
+/*================ IE ================ */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .navbar .signup__p{
+    margin: 10px 0 0 0;
+  }
+  
+  .navbar .signup .icon-web-log-in{
+    margin-top: 9px;
+  }
+			
+  .max-height .lightbox{
+    max-height: 125px;
+  }
+
+  .carousel{
+    width: inherit;
+  }
+
+  .line{
+    margin: 0 auto;
+  }
+}
+
