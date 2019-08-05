@@ -24,47 +24,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-list-menu:before {
-  content: "\e908";
-}
-.icon-web-log-in:before {
-  content: "\e909";
-}
-.icon-badge:before {
+.icon-facebook:before {
   content: "\e900";
 }
-.icon-birdie:before {
-  content: "\e901";
-  color: #030;
-}
-.icon-facebook:before {
-  content: "\e902";
-}
-.icon-golf:before {
-  content: "\e903";
-}
-.icon-history:before {
-  content: "\e904";
-}
 .icon-instagram:before {
-  content: "\e905";
-}
-.icon-keyboard-right-arrow-button:before {
-  content: "\e906";
-  color: #90b081;
-}
-.icon-programm:before {
-  content: "\e907";
-}
-.icon-trophy:before {
-  content: "\e90a";
+  content: "\e901";
 }
 .icon-twitter:before {
-  content: "\e90b";
-}
-.icon-vip:before {
-  content: "\e90c";
+  content: "\e902";
 }
 .icon-whatsapp:before {
+  content: "\e903";
+}
+.icon-badge:before {
+  content: "\e904";
+}
+.icon-birdie:before {
+  content: "\e905";
+}
+.icon-golf:before {
+  content: "\e906";
+}
+.icon-history:before {
+  content: "\e907";
+}
+.icon-keyboard-right-arrow-button:before {
+  content: "\e908";
+}
+.icon-programm:before {
+  content: "\e909";
+}
+.icon-list-menu:before {
+  content: "\e90a";
+}
+.icon-web-log-in:before {
+  content: "\e90b";
+}
+.icon-trophy:before {
+  content: "\e90c";
+}
+.icon-vip:before {
   content: "\e90d";
 }
