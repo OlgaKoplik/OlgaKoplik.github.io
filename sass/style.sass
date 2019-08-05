@@ -9,12 +9,11 @@ $white: white
 $gray: #999999
 $green: #336600
 $light-green: #90b081
-$light-green-tinted: mix(white, $light-green, 50%)
 $max-width: 960px
 $p: 16px
 
-html 
-	scroll-behavior: smooth
+$light-green-tinted: mix(white, $light-green, 50%)
+
 body
 	font-family: $font-family
 	overflow-x: hidden
@@ -27,12 +26,11 @@ body
 	width: 160px
 	border-radius: 0
 	border-style: none
-	&:focus
-		outline-color: $green
+
 .title
 	margin-top: 50px
 	max-width: 550px
-	&__h2
+	&__h1
 		font-size: 36px
 		font-weight: 600
 		color: $green
@@ -54,7 +52,7 @@ body
 	height: 100%
 	max-height: 640px
 	overflow: hidden
-	background: url('../img/img/bg-header.jpg')
+	background: url('../img/img/ak-n-cakiner-651430-unsplash.jpg')
 	background-position: center center
 	background-size: cover
 	background-repeat: no-repeat
@@ -80,6 +78,7 @@ body
 		.nav-link:hover
 			color: $light-green-tinted
 			transition: all .3s linear
+
 	ul
 		padding-top: 0
 	.signup
@@ -94,20 +93,24 @@ body
 			font-size: 20px
 			margin-left: 5px
 			margin: auto
+			
+
+		
 	.signup:hover
 		border: 2px solid $light-green-tinted
 		transition: all .3s linear
+		
 			
-.navbar-toggler:focus
-	outline-color: $green
+			
 	
+
 .icon-list-menu
-	resize: 70px
+	size: 70px
 	color: white
 
 .icon-web-log-in:before 
-	content: "\e90b"
-	resize: 70px
+	content: "\e909"
+	size: 70px
 	color: white
 
 .join
@@ -125,14 +128,13 @@ body
 		padding: 16px
 		&__title
 			font-size: 48px
+			font-weight: 800
 			font-family: $font-family
 			text-transform: uppercase
 			letter-spacing: 10px
 			margin-bottom: 70px
 			color: $white
 			display: inline-flex
-			h1
-				font-weight: 800
 		&__p
 			font-size: $p
 			color: $white
@@ -171,21 +173,7 @@ body
 	input
 		.ng-valid
 			border-bottom: 1px solid $green
-	.close:focus
-		outline-color: $green
-	.bth--close
-		background-color: $gray
-	.alert-success
-		font-weight: 300
-		margin-top: 20px
-		border-radius: 0
-		animation: show .5s ease 
 
-@keyframes show
-	0%
-		opacity: 0
-	100%
-		opacity: 1
 	
 	/*================ About ================ */
 .about-section
@@ -235,7 +223,6 @@ body
 		margin: 0
 		margin-top: 10px
 		box-shadow: none	
-
 /*================ Level ================ */
 .level
 	height: 500px
@@ -323,7 +310,7 @@ body
 	.title
 		padding-left: 10px
 		max-width: 700px
-		&__h2
+		&__h1
 			text-align: left
 		&__line
 			width: 70px
@@ -336,19 +323,14 @@ body
 		border: 0
 		img
 			border-radius: 0
-
-.baguetteBox-button:focus
-		outline-color: $green
-
 .tz-gallery
 	.col-4
 		padding: 1px
 	
+
 .video
 	width: 97%    !important
 	height: auto   !important
-	&:focus
-		outline-color: $green
 
 
 /*================ Contact ================ */
@@ -365,7 +347,7 @@ body
 		margin-bottom: 50px
 		margin-top: 0
 		max-width: 100%
-		&__h2
+		&__h1
 			color: $white
 		&__line
 			border-top: 1px solid $white

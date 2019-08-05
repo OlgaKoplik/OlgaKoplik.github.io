@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Golf Club</title>
-	<link rel="icon" href="img/favicon.png">
+	<title>Главная</title>
+
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,600,800" rel="stylesheet">
 	<link rel="stylesheet" href="css/icomoon.css">
@@ -16,17 +16,18 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 
-<body data-ng-app="validation" data-ng-controller="myCtrl">
-	<header class="header">
-		<div class="menu" id="menu">
-			<nav class="navbar navbar-expand-sm" id="nav">
+<body ng-app="validation" ng-controller="myCtrl">
+	<div class="header">
+		<div class="menu">
+			<nav class="navbar navbar-expand-sm">
 				<a class="navbar-brand logo" href="#">
 					<span class="icon icon-golf"></span>
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+				 aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon icon-list-menu"></span>
 				</button>
+
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
@@ -45,15 +46,16 @@
 				</div>
 				<div>
 					<button type="button" class="bth signup" data-toggle="modal" data-target="#exampleModal">
-						<span class="signup__p">{{signUpName}}</span><span class="icon-web-log-in"></span>
+						<label class="signup__p">{{signUpName}}</label><span class="icon-web-log-in"></span>
 					</button>
-					<a class="signup-sm" data-toggle="modal" data-target="#exampleModal">
+
+					<a class="signup-sm" class="bth signup" data-toggle="modal" data-target="#exampleModal">
 						<span class="icon-web-log-in"></span>
 					</a>
 
 					<!-- Modal -->
-					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-						aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+					 aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -63,61 +65,40 @@
 									</button>
 								</div>
 								<div class="modal-body">
-									<form name="userForm" data-ng-submit="submitForm()"
-									data-ng-class="{submitted:addContact.submitted}" novalidate>
-										<div class="form-group"
-										data-ng-class="{ 'has-error' : userForm.username.$invalid && !userForm.username.$pristine }">
-											<input type="text" name="username" class="form-control"
-											data-ng-model="NameSignUp" data-ng-class="{submitted:username.submitted}"
-												id="exampleInputName" data-aria-describedby="name" required
-												placeholder="Name" data-ng-minlength="3" data-ng-maxlength="8">
-											<p data-ng-show="userForm.username.$error.minlength" class="help-block">Username
-												is too short.</p>
-											<p data-ng-show="userForm.username.$error.maxlength" class="help-block">Username
-												is too long.</p>
+									<form name="userForm" ng-submit="submitForm()" ng-class="{submitted:addContact.submitted}" novalidate>
+										<div class="form-group" ng-class="{ 'has-error' : userForm.username.$invalid && !userForm.username.$pristine }">
+											<input type="name" name="username" class="form-control" ng-model="NameSignUp" ng-class="{submitted:username.submitted}" id="exampleInputName"
+											 aria-describedby="name" required placeholder="Name" ng-minlength="3" ng-maxlength="8">
+											<p ng-show="userForm.username.$error.minlength" class="help-block">Username is too short.</p>
+											<p ng-show="userForm.username.$error.maxlength" class="help-block">Username is too long.</p>
+
 										</div>
-										<div class="form-group"
-										data-ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
-											<input type="email" name="email" class="form-control"
-												id="exampleInputEmail1" data-aria-describedby="emailHelp" placeholder="Email"
-												data-required="email" data-ng-model="user.email">
-											<p data-ng-show="userForm.email.$invalid && !userForm.email.$pristine"
-												class="help-block">Enter a valid email.</p>
-											<small id="emailHelp" class="form-text text-muted">We'll never share your
-												email with anyone else.</small>
+										<div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+											<input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+											 placeholder="Email" required="email" ng-model="user.email">
+											<p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 										</div>
-										<div class="form-group"
-										data-ng-class="{ 'has-error' : userForm.pass.$invalid && !userForm.pass.$pristine }">
-											<input type="password" name="pass" class="form-control"
-												id="exampleInputPassword1" placeholder="Password" data-required="password"
-												data-ng-minlength="8" data-ng-maxlength="20" data-ng-model="user.pass">
-											<p data-ng-show="userForm.pass.$error.minlength" class="help-block">Password is
-												too short (min. 8 symbols).</p>
-											<p data-ng-show="userForm.pass.$error.maxlength" class="help-block">Password is
-												too long (max. 20 symbols).</p>
+										<div class="form-group" ng-class="{ 'has-error' : userForm.pass.$invalid && !userForm.pass.$pristine }">
+											<input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password" required="password"
+											 ng-minlength="8" ng-maxlength="20" ng-model="user.pass">
+											 <p ng-show="userForm.pass.$error.minlength" class="help-block">Password is too short (min. 8 symbols).</p>
+											 <p ng-show="userForm.pass.$error.maxlength" class="help-block">Password is too long (max. 20 symbols).</p>
+											 
 										</div>
 										<div class="custom-control custom-checkbox form-group">
-											<input type="checkbox" name="check"
-												class="custom-control-input form-control" id="customCheck1"
-												data-ng-model="check" value="1" required>
-											<label class="custom-control-label" for="customCheck1" data-required="checkbox">I
-												agree for my personal data
+											<input type="checkbox" name="check" class="custom-control-input form-control" id="customCheck1" ng-model="check"
+											 value="1" required>
+											<label class="custom-control-label" for="customCheck1" required="checkbox">I agree for my personal data
 												(name, e-mail) to be kept on file.</label>
-											<p class="help-block"
-											data-ng-show="userForm.$dirty && userForm.check.$error.required">Toggle
-												required</p>
+											<p class="help-block" ng-show="userForm.$dirty && userForm.check.$error.required">Toggle required</p>
 										</div>
-										<button type="submit" class="bth submit popover-test"
-										data-ng-disabled="userForm.$invalid" data-toggle="modal"
-											data-content="Your registration is successful!">Save</button>
-										<button type="button" class="bth bth--close popover-test" data-toggle="modal" data-dismiss="modal">Close</button>
-										<div class="col-lg-12 col-sm-12 col-xs-12 alert alert-success" data-ng-show="successMessagebool">
-												<strong>{{successMessage }}</strong>
-										</div>
+										<button type="submit" class="bth submit popover-test" ng-disabled="userForm.$invalid" data-toggle="modal" data-content="Your registration is successful!">Submit</button>
 									</form>
 								</div>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</nav>
@@ -125,24 +106,26 @@
 
 		<div class="join">
 			<section class="header-inner">
-				<div class="header-inner__title">
-					<h1 class="wow animated fadeInLeft" data-wow-delay="0.5s">Golf&nbsp;</h1>
-					<h1 class="wow animated fadeInRight" data-wow-delay="0.5s">Club</h1>
-				</div>
+				<h1 class="header-inner__title">
+					<div class="wow animated fadeInLeft" data-wow-delay="0.5s">Golf&nbsp;</div>
+					<div class="wow animated fadeInRight" data-wow-delay="0.5s">Club</div>
+				</h1>
 				<p class="header-inner__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
 					Aenean euismod bibendum laoreet. </p>
 				<button type="button" class="header-inner__btn bth">Join Us</button>
 			</section>
 		</div>
-	</header>
 
-	<section class="about-section">
+	</div>
+
+	<div class="about-section">
 		<div class="title">
-			<h2 class="title__h2" id="Programms">Why choose Our Club&nbsp;?</h2>
+			<h1 class="title__h1" id="Programms">Why choose Our Club&nbsp;?</h1>
 			<hr class="title__line">
 			<p class="title__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenea consectetur ad
 				ipiscing elit. Aenea</p>
 		</div>
+
 		<div class="cards wow animated fadeInUp">
 			<div class="card">
 				<div class="card__img">
@@ -155,14 +138,12 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aen</p>
 					</div>
 					<div class="card__more">
-						<a class="" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
-							aria-controls="collapseExample1">
+						<a class="" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
 							More >>
 						</a>
 						<div class="collapse" id="collapseExample1">
 							<div class="card card-body">
-								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-								squid. Nihil anim
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
 								keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 							</div>
 						</div>
@@ -181,14 +162,12 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aen</p>
 					</div>
 					<div class="card__more">
-						<a class="" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
-							aria-controls="collapseExample2">
+						<a class="" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
 							More >>
 						</a>
 						<div class="collapse" id="collapseExample2">
 							<div class="card card-body">
-								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-								squid. Nihil anim
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
 								keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 							</div>
 						</div>
@@ -207,14 +186,12 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aen</p>
 					</div>
 					<div class="card__more">
-						<a class="" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
-							aria-controls="collapseExample3">
+						<a class="" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
 							More >>
 						</a>
 						<div class="collapse" id="collapseExample3">
 							<div class="card card-body">
-								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-								squid. Nihil anim
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
 								keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 							</div>
 						</div>
@@ -222,11 +199,11 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<section class="level container">
+	<div class="level container">
 		<div class="row title small">
-			<h2 class="title__h2">For each level</h2>
+			<h1 class="title__h1" id="Programms">For each level</h1>
 			<hr class="title__line">
 		</div>
 		<div class="row row-level">
@@ -238,8 +215,8 @@
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 					</ol>
-
 					<div class="carousel-inner">
+
 						<div class="carousel-item carousel-item-course active">
 							<div class="card text-center">
 								<div class="card-body">
@@ -250,8 +227,7 @@
 										<span class="icon-badge activ middl"></span>
 										<span class="icon-badge"></span>
 									</div>
-									<p class="card-text">With supporting text below as a natural lead-in to additional
-										content.</p>
+									<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 									<button type="button" class="bth">Join Us</button>
 								</div>
 							</div>
@@ -267,8 +243,7 @@
 										<span class="icon-badge middl"></span>
 										<span class="icon-badge activ"></span>
 									</div>
-									<p class="card-text">With supporting text below as a natural lead-in to additional
-										content.</p>
+									<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 									<button type="button" class="bth">Join Us</button>
 								</div>
 							</div>
@@ -284,8 +259,7 @@
 										<span class="icon-badge middl activ"></span>
 										<span class="icon-badge activ"></span>
 									</div>
-									<p class="card-text">With supporting text below as a natural lead-in to additional
-										content.</p>
+									<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 									<button type="button" class="bth">Join Us</button>
 								</div>
 							</div>
@@ -295,7 +269,7 @@
 			</div>
 			<div class="col-7 desktop">
 				<div class="title wow animated fadeInRight" data-wow-delay="0.5s">
-					<h2 class="title__h2" id="Courses">For each level</h2>
+					<h1 class="title__h1" id="Courses">For each level</h1>
 					<hr class="title__line">
 				</div>
 				<div class="phrase">
@@ -305,15 +279,14 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<section class="container gallery ">
+	<div class="container gallery ">
 		<div class="row">
 			<div class=" title">
-				<h2 class="title__h2" id="Gallery">Gallery</h2>
+				<h1 class="title__h1" id="Gallery">Gallery</h1>
 				<hr class="title__line">
-				<p class="title__p classtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipiscing elit.
-					Aenea</p>
+				<p class="title__p classtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipiscing elit. Aenea</p>
 			</div>
 		</div>
 		<div class="container gallery-container">
@@ -322,6 +295,7 @@
 					<video class="video" src="img/video/panarama.mp4" controls muted></video>
 				</div>
 				<div class="tz-gallery col-md-5">
+
 					<div class="row max-height wow animated bounceInRight" data-wow-duration="1.5s">
 						<div class="col-4 ">
 							<div class="card">
@@ -347,9 +321,7 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="row max-height wow animated bounceInRight" data-wow-delay="0.2s"
-						data-wow-duration="1.5s">
+					<div class="row max-height wow animated bounceInRight" data-wow-delay="0.2s" data-wow-duration="1.5s">
 						<div class="col-4">
 							<div class="card">
 								<a class="lightbox" href="img/gallery/4.jpg">
@@ -375,8 +347,7 @@
 						</div>
 
 					</div>
-					<div class="row max-height wow animated bounceInRight" data-wow-delay="0.4s"
-						data-wow-duration="1.5s">
+					<div class="row max-height wow animated bounceInRight" data-wow-delay="0.4s" data-wow-duration="1.5s">
 						<div class="col-4">
 							<div class="card">
 								<a class="lightbox" href="img/gallery/7.jpg">
@@ -400,52 +371,56 @@
 								</a>
 							</div>
 						</div>
+
 					</div>
+
+
+
 				</div>
 			</div>
 		</div>
-	</section>
 
-	<section class="contact container">
+	</div>
+
+	<div class="contact container">
 		<div class="title">
-			<h2 class="title__h2" id="Contact">Contact Us</h2>
+			<h1 class="title__h1" id="Contact">Contact Us</h1>
 			<hr class="title__line">
 		</div>
 		<div class="row">
 			<div class="col-10 contact-card">
 				<form class="form contact-form">
 					<div class="form-group">
-						<input type="text" class="form-control border-boottom" id="InputName" data-aria-describedby="name"
-							placeholder="Name" value="{{contactName}}">
+						<input type="name" class="form-control border-boottom" id="InputName" aria-describedby="name" placeholder="Name" value="{{contactName}}">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control border-boottom" id="InputEmail"
-						data-aria-describedby="emailHelp" placeholder="Email" value="{{contactEmail}}">
+						<input type="email" class="form-control border-boottom" id="InputEmail" aria-describedby="emailHelp" placeholder="Email" value="{{contactEmail}}">
 					</div>
 					<div class="form-group">
-						<textarea class="form-control txt-area" id="FormControlTextarea" rows="3"
-							placeholder="Your Message ..."></textarea>
+						<textarea class="form-control txt-area" id="FormControlTextarea" rows="3" placeholder="Your Message ..."></textarea>
 					</div>
 					<button type="submit" class="bth">Send Message</button>
 				</form>
 			</div>
 		</div>
-	</section>
+	</div>
 
 
 	<footer class="footer">
 		<div class="container">
 			<div class="row footer-row">
-				<div class="col-6 col-sm-4 adress wow animated fadeInLeft" data-wow-delay="0.3s">
-					Golf&nbsp;Club&nbsp;GmHa <br>
+				<div class="col-6 col-sm-4 adress wow animated fadeInLeft" data-wow-delay="0.3s">Golf&nbsp;Club&nbsp;GmHa <br>
 					Sanirio&nbsp;Plz&nbsp;32<br>
 					Gran&nbsp;Canaria<br class="indent">
+
 					golfclub@golf.com<br>
 					8&nbsp;(017)&nbsp;34&nbsp;34&nbsp;555
 				</div>
+
 				<div class="col-6 col-sm-4 logo wow animated fadeInUp" data-wow-delay="0.3s">
 					<span class="icon icon-golf"></span>
 				</div>
+
 				<div class="col-12 col-sm-4 menu wow animated fadeInRight" data-wow-delay="0.3s">
 					<nav class="navbar-footer">
 						<ul class="navbar-nav navbar-nav-footer">
@@ -485,11 +460,12 @@
 				<p class="rights wow animated fadeInUp" data-wow-delay="0.7s">Golf Club &copy; Copyright</p>
 			</div>
 		</div>
+
+
 	</footer>
 	<div id="map" class="map"></div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key="></script>
 	<script src="js/map.js"></script>
@@ -499,9 +475,18 @@
 	<script src="js/wow.min.js"></script>
 	<script>
 		new WOW().init();
+		// every time on scroll
+		/*window.addEventListener('scroll', function (e) {
+			if ($(window).scrollTop() <= 50) {
+				$('.wow').removeClass('animated');
+				$('.wow').removeAttr('style');
+				new WOW().init();
+			}
+		});*/
 	</script>
 	<script>
 		baguetteBox.run('.tz-gallery');
+		$('#example').popover(options)
 	</script>
 
 </body>
