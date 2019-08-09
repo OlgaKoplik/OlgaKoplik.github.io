@@ -381,53 +381,58 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003203}}
   .cards .card {
     text-align: center;
     width: 220px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    margin: 0 20px;
+    margin: 5px 20px;
     border: 0;
     border-radius: 0;
     -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 18px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003211}}
     .cards .card__img {
       margin-top: 25px;
       font-size: 75px;
       color: #336600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003215}}
     .cards .card__line {
       display: block;
       border-top: 1px solid #336600;
       width: 60px;
       text-align: center;
       margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003221}}
     .cards .card__h3 {
       font-size: 18px;
       font-weight: 600;
       padding: 15px;
       color: #999999;
       font-weight: 600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003227}}
     .cards .card__txt {
       padding: 15px 30px;
       text-align: center;
       line-height: 1.5em;
       color: #999999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003232}}
     .cards .card__more {
       margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003234}}
       .cards .card__more a {
         color: #999999;
         font-weight: 600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003238}}
 .card .card-body {
   margin: 0;
   margin-top: 10px;
@@ -435,18 +440,18 @@ body {
           box-shadow: none; }
 
 /*================ Level ================ */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003244}}
 .level {
   height: 500px;
   background: url("../img/level.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
   margin-top: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003250}}
   .level .title {
     margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003252}}
 .course {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -455,10 +460,10 @@ body {
       -ms-flex-align: center;
           align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003257}}
 .carousel-item-course {
   padding: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003259}}
   .carousel-item-course .card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -475,21 +480,21 @@ body {
     border-radius: 0;
     -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 18px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003267}}
     .carousel-item-course .card .card-body {
       font-family: "Raleway"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003269}}
       .carousel-item-course .card .card-body .card-title {
         font-size: 24px;
         font-weight: 600;
         color: #336600;
         margin-top: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003274}}
       .carousel-item-course .card .card-body .line {
         border-top: 1px solid #336600;
         width: 60px;
         margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003278}}
       .carousel-item-course .card .card-body .badge {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -497,49 +502,49 @@ body {
         font-size: 70px;
         color: #90b081;
         margin-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003283}}
         .carousel-item-course .card .card-body .badge .middl {
           margin-top: -30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003285}}
         .carousel-item-course .card .card-body .badge .activ {
           color: #336600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003287}}
       .carousel-item-course .card .card-body .card-text {
         color: #90b081;
         line-height: 1.5em;
         margin: 20px 0;
         padding: 0 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003292}}
       .carousel-item-course .card .card-body .bth {
         background: #336600;
         margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003295}}
         .carousel-item-course .card .card-body .bth:hover {
           background: rgba(144, 176, 129, 0.9);
           -webkit-transition: all 0.3s linear;
           transition: all 0.3s linear; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003300}}
 .carousel-indicators {
   margin-right: -600px;
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003303}}
   .carousel-indicators li {
     width: 15px;
     height: 15px;
     border-radius: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003308}}
 .phrase {
   margin-top: 20%;
   width: 250px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003311}}
   .phrase__txt {
     color: white;
     text-align: center;
     line-height: 1.4em;
     margin-left: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003316}}
   .phrase__autor {
     color: white;
     font-style: italic;
@@ -548,52 +553,52 @@ body {
     text-align: right; }
 
 /*================ Gallery ================ */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003325}}
 .gallery {
   margin-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003327}}
   .gallery .title {
     padding-left: 10px;
     max-width: 700px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003330}}
     .gallery .title__h2 {
       text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003332}}
     .gallery .title__line {
       width: 70px;
       margin-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003335}}
     .gallery .title__p {
       text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003337}}
 .gallery-container {
   margin-top: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003339}}
   .gallery-container .card {
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003341}}
     .gallery-container .card img {
       border-radius: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003344}}
 .baguetteBox-button:focus {
   outline-color: #336600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003348}}
 .tz-gallery .col-4 {
   padding: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003351}}
 .video {
   width: 97% !important;
   height: auto !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003354}}
   .video:focus {
     outline-color: #336600; }
 
 /*================ Contact ================ */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003360}}
 .contact {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -602,23 +607,23 @@ body {
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003368}}
   .contact .title {
     margin-bottom: 50px;
     margin-top: 0;
     max-width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003372}}
     .contact .title__h2 {
       color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003374}}
     .contact .title__line {
       border-top: 1px solid white;
       width: 140px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003377}}
   .contact .form {
     text-align: center;
     padding: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003380}}
     .contact .form .form-control {
       border: 1px solid #ddd;
       border-radius: 0;
@@ -626,29 +631,29 @@ body {
       transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003384}}
       .contact .form .form-control:focus {
         border-color: #90b081;
         -webkit-box-shadow: none;
                 box-shadow: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003387}}
     .contact .form .border-boottom {
       border: 0;
       border-bottom: 1px solid #ddd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003390}}
     .contact .form .txt-area {
       margin: 50px 0;
       height: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003393}}
     .contact .form .bth {
       background: #90b081; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003395}}
       .contact .form .bth:hover {
         background: #336600;
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003400}}
 .contact-card {
   width: 100%;
   margin: 0 auto;
@@ -659,68 +664,68 @@ body {
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); }
 
 /*================ Footer ================ */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003411}}
 .footer .logo {
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003413}}
   .footer .logo span {
     font-size: 80px;
     color: #999999;
     margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003417}}
     .footer .logo span:hover {
       color: #90b081;
       -webkit-transition: all 0.3s linear;
       transition: all 0.3s linear; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003421}}
 .adress {
   font-size: 18px;
   color: #999999;
   line-height: 1.4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003425}}
   .adress .indent {
     line-height: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003427}}
 .social-media {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003430}}
   .social-media__ul {
     display: inline;
     text-align: center;
     margin: 10px;
     font-size: 32px;
     color: #90b081; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003436}}
     .social-media__ul:hover {
       color: #336600;
       -webkit-transition: all 0.3s linear;
       transition: all 0.3s linear; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003440}}
 .navbar-footer {
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003442}}
   .navbar-footer .nav-link {
     font-size: 18px;
     color: #999999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003445}}
     .navbar-footer .nav-link:hover {
       color: #336600;
       text-decoration: underline;
       -webkit-transition: all 0.3s linear;
       transition: all 0.3s linear; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003449}}
 .rights {
   padding-top: 20px;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/olga9\/Desktop\/OlgaKoplik\.github\.io-master\/sass\/style\.sass}line{font-family:\00003454}}
 .map {
   margin-top: 20px;
   width: 100%;
